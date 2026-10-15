@@ -4,6 +4,26 @@
 
 The ESP32 samples an INMP441 I2S microphone, estimates pitch, compares it with standard high-G ukulele tuning, and reports whether the string is flat, sharp, or in tune.
 
+<p align="center">
+  <img src="docs/media/ukulele-tuner.jpg" alt="ESP32 ukulele tuner with display, microphone, buzzer, and red tuning mechanism" width="600">
+</p>
+
+## See it in action
+
+[![Animated preview of the ukulele tuner display](docs/media/tuning-preview.gif)](docs/media/ukulele-tuner-demo.mp4)
+
+- [Watch the full tuning demonstration with audio (36 seconds)](docs/media/ukulele-tuner-demo.mp4)
+- [Watch the early prototype clip (3 seconds)](docs/media/ukulele-tuner-short-demo.mp4)
+
+The preview above is silent; open the full MP4 for the original audio. If GitHub offers a download instead of playback, download the video and open it locally.
+
+<details>
+<summary>Earlier breadboard prototype</summary>
+
+![Earlier ESP32 tuner prototype with exposed wiring and a micro servo](docs/media/ukulele-prototype.jpg)
+
+</details>
+
 ## Signal path
 
 ```mermaid
